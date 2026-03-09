@@ -126,12 +126,7 @@ img {
     border: 2px solid #000000;
 }
 
-/*
-Source - https://stackoverflow.com/a/47264377
-Posted by Andreew4x4
-Retrieved 2026-03-08, License - CC BY-SA 3.0
-*/
-
+/* <!-- Acknowledgement: The logic in this dropdown function was adapted from a code example found on JSFiddle (https://jsfiddle.net/fh0tL1as/). --> */
 /* Accordion styles */
 .tab {
   position: relative;
@@ -155,7 +150,7 @@ label {
   cursor: pointer;
 }
 .blue label {
-  background: #2980b9;
+  background: #00274C;
 }
 .tab-content {
   max-height: 0;
@@ -166,7 +161,7 @@ label {
   transition: max-height .35s;
 }
 .blue .tab-content {
-  background: #3498db;
+  background: #00274C;
 }
 .tab-content p {
   margin: 1em;
@@ -223,3 +218,24 @@ input[type=radio]:checked + label::after {
 footer a {
     color: #FFCB05;
 }
+
+/* Title: "Yellowed" CSS Style
+Author: Stephanie Eckles & contributors (stylestage.dev)
+Date Accessed: June 11, 2024
+Type: CSS Style Inspiration
+Availability: https://stylestage.dev/styles/yellowed/
+Note: Style concepts inspired this design.
+
+Title: Source code from JSFiddle
+Author: Unknown (JSFiddle user, no author listed)
+Date accessed: June 11, 2024
+Type: Source code (HTML/CSS/JavaScript)
+Availability: https://jsfiddle.net/fh0tL1as/
+Note: Used algorithm/concept as reference for the FAQ accordions 
+
+Title: CSS Box-Shadow Property 
+ReferenceAuthor: W3Schools.comDate 
+Accessed: June 11, 2024
+Type: Documentation/Reference
+Availability: https://www.w3schools.com/cssref/css3_pr_box-shadow.php
+Note: Box shadow property uses this as a reference.*/
